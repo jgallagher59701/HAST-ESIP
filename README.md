@@ -6,6 +6,8 @@ The HAST project is a collaboration between the Montana Technology University De
 The project aims to develop sensor technology that can be used to montor conditions in the alpine environment in near real-time. 
 
 ## Development at MTech
+* https://github.com/mtech-ee/HighAltitudeSoilSensing
+
 
 ## Development at OPeNDAP
 Here are five Github repositories for the HAST leaf node part of the project, all of them are publicly accessible. I don't use the Arduino IDE but instead use a tool PlatformIO that works with MS VisualStudio. It supports multi-file code, etc., and works pretty well with Segger J-Link debugger probes (Segger makes a $20-30 probe for educational use that I have).
