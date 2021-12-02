@@ -18,4 +18,6 @@ Here are five Github repositories for the HAST leaf node part of the project, al
 * [leaf node data](https://github.com/jgallagher59701/HAST_leaf_node_data): A grab bag of data from various leaf node deployments. Also, in here there is a Jupyter notebook with calculations for the batter life of the leaf node based on current measurements of one copy of the node. The link for that notebook is here: [Compute_Leaf_Node_Current](https://github.com/jgallagher59701/HAST_leaf_node_data/blob/main/Compute_Leaf_Node_Current_2.ipynb). Github renders these notebooks so you don’t have to go through the tedium of running them yourself to see the results.
 * [lora main node stand-in](https://github.com/jgallagher59701/HAST_lora_main): This is the code for my main node stand-in. It dumps data to an SD card and to the serial port. Included is a python program to read from said serial port and write the info to a CSV file.
 
-Here’s a graph from the notebook in bullet #4. In the notebook I show how the data from the scope is filtered, etc.
+## Current use of the leaf node
+![a graph from the notebook in bullet #4 showing current use of the leaf node](https://github.com/jgallagher59701/HAST_leaf_node_data/blob/main/Current_measurement/figures/fig1.png)
+This graph show current use of the leaf node during the measurement, local data write and lora transmission segments of operation. Once those phases are complete, the node enters the _sleep_ mode, where current consumption is ~19 uA. In planned deployments, one measurement will be made per hour.
