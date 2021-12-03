@@ -6,8 +6,9 @@ The HAST project is a collaboration between the Montana Technology University De
 The project aims to develop sensor technology that can be used to montor conditions in the alpine environment in near real-time.
 
 ## System Architecture
-![The basic Star Topology](pictures/LoRa_Star_topology.jpg | width=100)
-<img src="pictures/LoRa_Star_topology.jpg" width="100" height="100">
+<img src="pictures/LoRa_Star_topology.jpg" width="50%" align="right">
+
+## Presentations
 
 ## Development at MTech
 The development of the **main node** at MTech is documented in this Github repository.
@@ -15,8 +16,6 @@ The development of the **main node** at MTech is documented in this Github repos
 * [High Altitude Soil Sensing](https://github.com/mtech-ee/HighAltitudeSoilSensing)
 
 ![The HAST Main Node Prototype](pictures/Main_node_labeled.jpg)
-
-The HAST Main Node Prototype
 
 ## Development at OPeNDAP
 Here are five Github repositories for the HAST leaf node part of the project, all of them are publicly accessible. I don't use the Arduino IDE but instead use a tool PlatformIO that works with MS VisualStudio. It supports multi-file code, etc., and works pretty well with Segger J-Link debugger probes (Segger makes a $20-30 probe for educational use that I have).
@@ -26,6 +25,12 @@ Here are five Github repositories for the HAST leaf node part of the project, al
 * [leaf node PCB](https://github.com/jgallagher59701/HAST_leaf_node_pcb): The KiCAD files for the leaf node Printed Circuit Board.
 * [leaf node data](https://github.com/jgallagher59701/HAST_leaf_node_data): A grab bag of data from various leaf node deployments. Also, in here there is a Jupyter notebook with calculations for the batter life of the leaf node based on current measurements of one copy of the node. The link for that notebook is here: [Compute_Leaf_Node_Current](https://github.com/jgallagher59701/HAST_leaf_node_data/blob/main/Compute_Leaf_Node_Current_2.ipynb). Github renders these notebooks so you don’t have to go through the tedium of running them yourself to see the results.
 * [lora main node stand-in](https://github.com/jgallagher59701/HAST_lora_main): This is the code for my main node stand-in. It dumps data to an SD card and to the serial port. Included is a python program to read from said serial port and write the info to a CSV file.
+
+![The leaf node parts](pictures/Leaf_node_1.jpg)
+
+
+![THe leaf node deployment](pictures/Leaf_node_deployment.jpg)
+
 
 ## Current use of the leaf node
 ![a graph from the notebook in bullet #4 showing current use of the leaf node](https://github.com/jgallagher59701/HAST_leaf_node_data/blob/main/Current_measurement/figures/fig1.png)
