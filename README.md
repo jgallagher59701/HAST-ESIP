@@ -34,7 +34,6 @@ Here are five Github repositories for the HAST leaf node part of the project, al
 
 ![The leaf node parts](pictures/Leaf_node_1.jpg)
 
-
 ![THe leaf node deployment](pictures/Leaf_node_deployment.jpg)
 
 
