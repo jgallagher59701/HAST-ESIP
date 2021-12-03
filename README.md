@@ -3,10 +3,14 @@ Information about the High Altitude Sensor Technology (HAST) Project
 
 ## The HAST project
 The HAST project is a collaboration between the Montana Technology University Departments of Biology and Electrical Engineering and OPeNDAP. 
-The project aims to develop sensor technology that can be used to montor conditions in the alpine environment in near real-time. 
+The project aims to develop sensor technology that can be used to montor conditions in the alpine environment in near real-time.
+
+## System Architecture
 
 ## Development at MTech
-* https://github.com/mtech-ee/HighAltitudeSoilSensing
+The development of the **main node** at MTech is documented in this Github repository.
+
+* [High Altitude Soil Sensing](https://github.com/mtech-ee/HighAltitudeSoilSensing)
 
 
 ## Development at OPeNDAP
