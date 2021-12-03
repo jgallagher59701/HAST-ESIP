@@ -6,12 +6,17 @@ The HAST project is a collaboration between the Montana Technology University De
 The project aims to develop sensor technology that can be used to montor conditions in the alpine environment in near real-time.
 
 ## System Architecture
+![The basic Star Topology](pictures/LoRa_Star_topology.jpg | width=100)
+<img src="pictures/LoRa_Star_topology.jpg" width="100" height="100">
 
 ## Development at MTech
 The development of the **main node** at MTech is documented in this Github repository.
 
 * [High Altitude Soil Sensing](https://github.com/mtech-ee/HighAltitudeSoilSensing)
 
+![The HAST Main Node Prototype](pictures/Main_node_labeled.jpg)
+
+The HAST Main Node Prototype
 
 ## Development at OPeNDAP
 Here are five Github repositories for the HAST leaf node part of the project, all of them are publicly accessible. I don't use the Arduino IDE but instead use a tool PlatformIO that works with MS VisualStudio. It supports multi-file code, etc., and works pretty well with Segger J-Link debugger probes (Segger makes a $20-30 probe for educational use that I have).
