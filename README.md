@@ -13,8 +13,8 @@ General description of HAST. Lorem ipsum dolor sit amet, consectetur adipiscing 
 ## Presentations
 We have made the following presentations of the work during the ESIP Labs funding period of xxx to yyy.
 * [ESIP Winter meeting, Januaray 2021](presentations/ESIP_EnviroSensing_Winter_2020_Sensors_2.0.pdf)
-* [ESIP Summer meeting, July, 2021](presentations/ESIPSUMMERSNOWMEAJHRG71020_wfonts.pptx)
-* [MTech UAS Workshop, November, 2021](presentations/UAS_Seminar_Apple_et_al_11621.pptx)
+* [ESIP Summer meeting, July, 2021](presentations/ESIPSUMMERSNOWMEAJHRG71020_wfonts.pdf)
+* [MTech UAS Workshop, November, 2021](presentations/UAS_Seminar_Apple_et_al_11621.pdf)
 
 ## Development at MTech
 The development of the **main node** at MTech is documented in this Github repository.
