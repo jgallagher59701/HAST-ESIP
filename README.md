@@ -13,8 +13,8 @@ General description of HAST. Lorem ipsum dolor sit amet, consectetur adipiscing 
 ## Presentations
 We have made the following presentations of the work during the ESIP Labs funding period of xxx to yyy.
 * [ESIP Winter meeting, Januaray 2021](presentations/ESIP_EnviroSensing_Winter_2020_Sensors_2.0.pdf)
-* [ESIP Summer meeting, July, 2021](presentations/ESIPSUMMERSNOWMEAJHRG71020_wfonts.pptx)
-* [MTech UAS Workshop, November, 2021](presentations/UAS_Seminar_Apple_et_al_11621.pptx)
+* [ESIP Summer meeting, July, 2021](presentations/ESIPSUMMERSNOWMEAJHRG71020_wfonts.pdf)
+* [MTech UAS Workshop, November, 2021](presentations/UAS_Seminar_Apple_et_al_11621.pdf)
 
 ## Development at MTech
 The development of the **main node** at MTech is documented in this Github repository.
@@ -33,7 +33,6 @@ Here are five Github repositories for the HAST leaf node part of the project, al
 * [lora main node stand-in](https://github.com/jgallagher59701/HAST_lora_main): This is the code for my main node stand-in. It dumps data to an SD card and to the serial port. Included is a python program to read from said serial port and write the info to a CSV file.
 
 ![The leaf node parts](pictures/Leaf_node_1.jpg)
-
 
 ![THe leaf node deployment](pictures/Leaf_node_deployment.jpg)
 
