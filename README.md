@@ -42,3 +42,12 @@ Here are five Github repositories for the HAST leaf node part of the project, al
 ![a graph from the notebook in bullet #4 showing current use of the leaf node](https://github.com/jgallagher59701/HAST_leaf_node_data/blob/main/Current_measurement/figures/fig1.png)
 
 This graph show current use of the leaf node during the measurement, local data write and lora transmission segments of operation. Once those phases are complete, the node enters the _sleep_ mode, where current consumption is ~19 uA. In planned deployments, one measurement will be made per hour. Battery life for the leaf node is estimated at ~11 years. The link for a notebook that details how the battery life was computer is here: [Compute_Leaf_Node_Current](https://github.com/jgallagher59701/HAST_leaf_node_data/blob/main/Compute_Leaf_Node_Current_2.ipynb). Github renders these notebooks so you don’t have to go through the tedium of running them yourself to see the results.
+
+## Data from a Leaf Node
+![temperature and humidity data](pictures/Leaf_Node_Measured_temperature_and_relative_humidity.png)
+
+This figure shows a month of data from a leaf node instance running in Butte, MT. Data were sent over a LoRa link to a stand-in main node and saved to an SD card by the main node. The data show some surprisingly high soil temperatures, but the June to July 2021 period was hot and dry (except for one rain event - see the humidity data in red) and so near-surface soil temperatures of 55°C are within reason.
+
+![Battery use](pictures/Leaf_node_battery_voltage.png)
+
+This figure shows a 0.05 volt decrease in battery voltage over a one month period. Note that this node is sampling at 12 times the rate planned for a non-test deployment, so we expect the batttery to last only a bit more than a year. Note the battery voltage variance with temperature (bule).
